@@ -27,13 +27,13 @@
 
     .button-container {
       position: absolute;
-      top: 10;
+      top: 5px;
       left: 0;
     }
 
     .button {
       display: inline-block;
-      margin: 10px;
+      margin: 5px; /* Updated margin to 5px */
     }
 
     .button a {
@@ -44,6 +44,18 @@
       text-decoration: none;
       border-radius: 5px;
       font-weight: bold;
+      transition: background-color 0.3s ease; /* Added transition effect */
+    }
+
+    .button a:hover {
+      background-color: #333; /* Added hover background color */
+      color: #fff; /* Added hover text color */
+    }
+
+    body {
+      background-image: linear-gradient(to bottom, #f9f9f9, #eaeaea); /* Added gradient background */
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
   </style>
 </head>
